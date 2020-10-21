@@ -167,16 +167,16 @@
     items: 1
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
+  // review
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
     responsive: {
-      0: {
+      500: {
         items: 1
       },
-      768: {
+      700: {
         items: 2
       },
       900: {
