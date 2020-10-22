@@ -271,9 +271,10 @@ a:hover {
   color: #fff;
 }
 #gtco-header {
+  background-image: url(../assets/img/main-bg.jpg);
   background-size: cover;
-  height: 850px;
-  background-position: top center;
+  height: 800px;
+  background-position: bottom center;
   width: 100%;
   overflow-x: hidden;
 }
