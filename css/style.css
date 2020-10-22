@@ -186,11 +186,10 @@ a:hover {
 }
 
 .mobile-nav {
+  width: 90%;
   position: fixed;
   top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
+  left: 22px;
   z-index: 9999;
   overflow-y: auto;
   background: #fff;
@@ -198,7 +197,7 @@ a:hover {
   opacity: 0;
   visibility: hidden;
   border-radius: 10px;
-  padding: 10px 0;
+  padding: 10px 0px;
 }
 
 .mobile-nav * {
@@ -277,6 +276,10 @@ a:hover {
   background-position: top center;
   width: 100%;
   overflow-x: hidden;
+}
+
+@media(max-width: 768px){
+ 
 }
 /* navi end */
 
@@ -389,9 +392,12 @@ a:hover {
   font-size: 35px;
 }
 
-@media(max-width: 767px){
-  
+@media(max-width: 768px){
+  .booking-form {
+    margin: 0 auto;
+  }
 }
+
 
 /* section02 */
 #section02{
@@ -613,4 +619,20 @@ a:hover {
     height: 280px;
     margin: 0 auto;
   }
+  .review{
+    font-size: 45px;
+    padding-left: 25px;
+    padding-top: 70px;
+  }
+}
+@media (max-width: 415px){
+  .testimonials .testimonial-item p {
+    padding-top: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 250px;
+    height: 280px;
+    margin: 0 auto;
+  }
+ 
 }

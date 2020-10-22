@@ -173,6 +173,9 @@
     dots: true,
     loop: true,
     responsive: {
+      400: {
+        items: 1
+      },
       500: {
         items: 1
       },
